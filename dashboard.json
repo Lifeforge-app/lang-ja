@@ -1,0 +1,30 @@
+{
+  "title": "ダッシュボード",
+  "description": "ミッションコントロールセンター。すべてをよりエキサイティングにします。",
+  "widgets": {},
+  "modals": {
+    "manageWidgets": "ウィジェットを管理"
+  },
+  "buttons": {
+    "manageCategories": "カテゴリを管理",
+    "unlockLayout": "レイアウトのロックを解除",
+    "manageWidgets": "ウィジェットを管理",
+    "lockLayout": "レイアウトをロック"
+  },
+  "empty": {
+    "welcome": {
+      "title": "LifeForgeへようこそ！",
+      "description": "Forgistryからいくつかのモジュールをインストールして始めましょう。"
+    },
+    "notFound": {
+      "title": "ウィジェットが見つかりません",
+      "description": "お探しのウィジェットは存在しません。インストール済みモジュールを確認してください。"
+    }
+  },
+  "messages": {
+    "editingLayout": "ダッシュボードレイアウトを編集中です",
+    "editingLayoutHint": "ウィジェットをドラッグして配置を調整するか、各ウィジェットの右下隅にある小さな三角形をドラッグしてサイズを調整してください"
+  },
+  "loading": "ダッシュボードを読み込み中...",
+  "test": ""
+}

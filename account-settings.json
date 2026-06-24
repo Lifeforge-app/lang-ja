@@ -1,0 +1,82 @@
+{
+  "title": "アカウント設定",
+  "description": "アカウントの詳細をすべて管理する場所",
+  "settings": {
+    "title": {
+      "profilePicture": "プロフィール画像",
+      "username": "ユーザー名",
+      "displayName": "表示名",
+      "email": "メールアドレス",
+      "password": "パスワード",
+      "dateOfBirth": "生年月日",
+      "twoFA": "二要素認証"
+    },
+    "desc": {
+      "profilePicture": "プロフィール画像をアップロードしてアカウントをカスタマイズします。",
+      "username": "プラットフォーム上であなたを識別する名前です。",
+      "displayName": "他のユーザーに表示される名前です。",
+      "email": "アカウントにログインするために使用するメールアドレスです。",
+      "password": "アカウントを保護するために強力なパスワードを設定してください。",
+      "dateOfBirth": "生年月日を設定すると、サプライズがあります！",
+      "twoFA": "システムへのログイン時に二要素認証を有効にします。"
+    },
+    "empty": "未設定"
+  },
+  "modals": {
+    "username": {
+      "update": "ユーザー名を更新"
+    },
+    "email": {
+      "update": "メールアドレスを更新"
+    },
+    "displayName": {
+      "update": "表示名を更新"
+    },
+    "dateOfBirth": {
+      "update": "生年月日を更新"
+    },
+    "enable2FA": {
+      "title": "二要素認証を有効にする",
+      "description": "Google Authenticatorなどのお好みの認証アプリで下のQRコードをスキャンし、次に進んでください。",
+      "confirmationDescription": "認証アプリに表示されたOTPを入力して、2FAの有効化を確認してください。"
+    },
+    "disable2FA": {
+      "title": "二要素認証を無効にする",
+      "description": "二要素認証を無効にしてもよろしいですか？"
+    },
+    "changePassword": {
+      "title": "パスワードを変更"
+    }
+  },
+  "buttons": {
+    "changePassword": "パスワードを変更"
+  },
+  "inputs": {
+    "dateOfBirth": "生年月日",
+    "username": "ユーザー名",
+    "email": "メールアドレス",
+    "displayName": "表示名",
+    "currentPassword": {
+      "label": "現在のパスワード",
+      "placeholder": "現在のパスワードを入力してください"
+    },
+    "newPassword": {
+      "label": "新しいパスワード",
+      "placeholder": "新しいパスワードを入力してください"
+    },
+    "confirmPassword": {
+      "label": "新しいパスワードの確認",
+      "placeholder": "新しいパスワードを再入力してください"
+    }
+  },
+  "messages": {
+    "twoFA": {
+      "enableSuccess": "二要素認証が正常に有効化されました。",
+      "disableSuccess": "二要素認証が正常に無効化されました。"
+    }
+  },
+  "misc": {
+    "enabled": "有効",
+    "disabled": "無効"
+  }
+}

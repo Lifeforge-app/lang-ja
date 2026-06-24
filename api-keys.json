@@ -1,0 +1,50 @@
+{
+  "title": "API キー",
+  "description": "モジュールに必要なすべてのAPIキーを管理します",
+  "lockedMessage": "APIキー設定モジュールはロックされています",
+  "passwordRequired": "APIキーを復号するにはパスワードが必要です",
+  "missing": {
+    "title": "APIキーが不足しています",
+    "description": "1つ以上のAPIキーが不足しています。APIキー設定モジュールで設定してください",
+    "requiredKeysAre": "不足している必須APIキー:"
+  },
+  "modals": {
+    "apiKey": {
+      "create": "APIキーを作成",
+      "update": "APIキーを更新"
+    },
+    "modulesRequired": {
+      "title": "必要なモジュール",
+      "totalModulesRequire": "合計{{count}}個のモジュールがこのAPIキーを必要としています。",
+      "required": "必須",
+      "optional": "任意"
+    }
+  },
+  "buttons": {
+    "configApiKeys": "APIキーを設定"
+  },
+  "inputs": {
+    "keyName": "キー名",
+    "keyDescription": "キーの説明",
+    "keyIcon": "キーアイコン",
+    "apiKey": "APIキー",
+    "keyId": "キーID",
+    "isExposable": "公開可能",
+    "overrideKey": "キーを上書き"
+  },
+  "items": {
+    "apiKey": "APIキー"
+  },
+  "empty": {
+    "apiKeys": {
+      "title": "APIキーがありません",
+      "description": "APIキーが見つかりません。下のボタンをクリックして新しいAPIキーを作成してください"
+    }
+  },
+  "misc": {
+    "requiredBy": "必要モジュール: {{count}}個",
+    "lastUpdated": "最終更新: {{time}}",
+    "exposable": "公開可能",
+    "internalOnly": "内部のみ"
+  }
+}

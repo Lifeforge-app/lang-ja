@@ -1,0 +1,82 @@
+{
+  "title": "モジュールマネージャー",
+  "description": "LifeForgeインスタンス用のUIベースのモジュールマネージャー",
+  "category": "カテゴリ",
+  "subsections": {
+    "modules": "モジュール",
+    "categories": "カテゴリ"
+  },
+  "buttons": {
+    "uninstall": "アンインストール",
+    "addTranslation": "翻訳を追加",
+    "addCategory": "カテゴリを追加",
+    "add category": "カテゴリを追加"
+  },
+  "subsectionTitleAndDesc": {
+    "modules": {
+      "title": "モジュール",
+      "description": "LifeForgeインスタンスのモジュールをインストール、更新、削除します"
+    },
+    "categories": {
+      "title": "カテゴリ",
+      "description": "サイドバーのカテゴリを整理・並べ替えてナビゲーションをカスタマイズします"
+    }
+  },
+  "items": {
+    "category": "カテゴリ"
+  },
+  "inputs": {
+    "categoryKey": "カテゴリキー",
+    "translationKey": "翻訳キー"
+  },
+  "empty": {
+    "category": {
+      "title": "カテゴリが見つかりません",
+      "description": "カテゴリを作成して始めましょう"
+    },
+    "modules": {
+      "title": "モジュールがインストールされていません",
+      "description": "レジストリからモジュールをインストールしてLifeForgeを拡張しましょう"
+    }
+  },
+  "modals": {
+    "category": {
+      "create": "カテゴリを作成",
+      "update": "カテゴリを更新"
+    },
+    "uninstall": {
+      "title": "{{module}}をアンインストールしますか？",
+      "description": "このモジュールはシステムから削除されますが、データは保持されます。いつでもレジストリから再インストールできます。"
+    },
+    "devMode": {
+      "enable": {
+        "title": "開発モードを有効にする",
+        "description": "開発モードを有効にすると、このモジュールは事前ビルドされたバンドルではなく、ソースから直接読み込まれます。モジュールのコードベースへの変更は再ビルドなしで即座にホットリロードされます。\n\nこのモジュールを積極的に開発またはカスタマイズする場合に使用します。"
+      },
+      "disable": {
+        "title": "開発モードを無効にする",
+        "description": "開発モードを無効にすると、事前ビルドされたバンドルからの読み込みに戻ります。最新の変更を含めるためにモジュールを再ビルドしてください。"
+      }
+    },
+    "translationKey": {
+      "create": "翻訳キーを作成",
+      "update": "翻訳キーを更新"
+    }
+  },
+  "devMode": {
+    "label": "開発モード",
+    "enable": "開発モードを有効にする",
+    "disable": "開発モードを無効にする",
+    "enabled": "{{module}}は現在開発モードです",
+    "disabled": "{{module}}は開発モードではなくなりました"
+  },
+  "notBuilt": {
+    "label": "未ビルド"
+  },
+  "misc": {
+    "translations": "翻訳"
+  },
+  "messages": {
+    "categoriesMissingTranslations": "{{count}}個のカテゴリに翻訳が不足しています："
+  }
+}

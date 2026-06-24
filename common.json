@@ -1,0 +1,448 @@
+{
+  "buttons": {
+    "create": "作成",
+    "update": "更新",
+    "edit": "編集",
+    "rename": "名前変更",
+    "select": "選択",
+    "cancel": "キャンセル",
+    "delete": "削除",
+    "save": "保存",
+    "copy": "コピー",
+    "copied": "コピーしました",
+    "previous": "前へ",
+    "next": "次へ",
+    "print": "印刷",
+    "remove": "削除",
+    "upload": "アップロード",
+    "import": "インポート",
+    "submit": "送信",
+    "new": "新規{{item}}",
+    "proceed": "進む",
+    "applyFilters": "フィルターを適用",
+    "retry": "再試行",
+    "refresh": "更新",
+    "pin": "ピン留め",
+    "unpin": "ピン留め解除",
+    "search": "検索",
+    "favourite": "お気に入り",
+    "unfavourite": "お気に入り解除",
+    "archive": "アーカイブ",
+    "unarchive": "アーカイブ解除",
+    "download": "ダウンロード",
+    "stop": "停止",
+    "record": "録音",
+    "overwrite": "上書き",
+    "adjust": "調整",
+    "downloading": "ダウンロード中...",
+    "generate": "生成",
+    "regenerate": "再生成",
+    "confirm": "確認",
+    "goBack": "戻る"
+  },
+  "modals": {
+    "deleteConfirmation": {
+      "title": "{{itemName}}を削除してもよろしいですか？",
+      "desc": "{{itemName}}とその関連コンテンツがすべて削除されます。この操作は元に戻せません！",
+      "inputs": {
+        "confirmation": {
+          "placeholder": "削除を確認するために\"{{text}}\"と入力してください",
+          "label": "削除の確認"
+        }
+      },
+      "error": "アイテムの削除中にエラーが発生しました。再試行してください。"
+    },
+    "searchFilters": "検索フィルター",
+    "iconPicker": {
+      "title": "アイコンを選択",
+      "items": {
+        "icon": "アイコン",
+        "iconSet": "アイコンセット"
+      },
+      "empty": {
+        "icon": {
+          "title": "アイコンがありません",
+          "description": "アイコンが見つかりません。別のキーワードをお試しください。"
+        }
+      }
+    },
+    "imagePicker": {
+      "title": "ファイルを選択",
+      "local": "ローカル画像をアップロード",
+      "url": "画像URL",
+      "pixabay": "Pixabayからダウンロード",
+      "orPasteLink": "または画像リンクを貼り付け",
+      "inputs": {
+        "imageLink": "画像リンク",
+        "imageType": "画像タイプ",
+        "imageCategory": "画像カテゴリ",
+        "imageColor": "画像の色",
+        "editorsChoice": "エディターのおすすめ",
+        "prompt": "AIプロンプトテキスト"
+      },
+      "imageType": {
+        "all": "すべて",
+        "photo": "写真",
+        "vector": "ベクター",
+        "illustration": "イラスト"
+      },
+      "items": {
+        "pixabay": "Pixabay"
+      },
+      "empty": {
+        "result": {
+          "title": "結果がありません",
+          "description": "画像が見つかりません。別のキーワードをお試しください。"
+        },
+        "pixabay": {
+          "title": "Pixabay提供",
+          "description": "1300万以上の高品質な無料画像を検索できます。"
+        },
+        "noAPIKey": {
+          "title": "Pixabay APIキーが設定されていません",
+          "description": "この機能を使用するには、APIキーボルトでPixabay APIキーを設定してください。"
+        },
+        "noOpenAIKey": {
+          "title": "OpenAI APIキーが設定されていません",
+          "description": "この機能を使用するには、APIキーボルトでOpenAI APIキーを設定してください。"
+        }
+      },
+      "ai": "AI画像生成"
+    },
+    "colorPicker": {
+      "title": "色を選択",
+      "modals": {
+        "morandiColorPalette": "モランディカラーパレット",
+        "tailwindCssColorPalette": "Tailwind CSSカラーパレット",
+        "flatUiColors": "Flat UIカラー"
+      },
+      "buttons": {
+        "morandiColorPalette": "モランディカラーパレット",
+        "tailwindCssColorPalette": "Tailwind CSSカラーパレット",
+        "flatUiColors": "Flat UIカラー"
+      }
+    },
+    "imagePreview": "画像プレビュー",
+    "qrCodeScanner": "QRコードスキャナー",
+    "viewImage": "画像を表示"
+  },
+  "misc": {
+    "search": "{{item}}を検索...",
+    "notFound": {
+      "title": "おっと！ここには何もありません",
+      "description": "お探しのページは見つかりません。URLを確認してもう一度お試しください。"
+    },
+    "tipsAndTricks": "ヒントとコツ",
+    "loadingModule": "モジュールを読み込み中...",
+    "deprecated": "サポート終了",
+    "imageUpload": {
+      "local": "ローカル画像をアップロード",
+      "url": "画像URL",
+      "pixabay": "Pixabayからダウンロード",
+      "orPasteLink": "または画像リンクを貼り付け",
+      "inputs": {
+        "imageLink": "画像リンク",
+        "imageType": "画像タイプ",
+        "imageCategory": "画像カテゴリ",
+        "imageColor": "画像の色",
+        "editorsChoice": "エディターのおすすめ"
+      },
+      "imageType": {
+        "all": "すべて",
+        "photo": "写真",
+        "vector": "ベクター",
+        "illustration": "イラスト"
+      },
+      "items": {
+        "pixabay": "Pixabay"
+      },
+      "empty": {
+        "result": {
+          "title": "結果がありません",
+          "description": "画像が見つかりません。別の検索語をお試しください。"
+        },
+        "pixabay": {
+          "title": "Pixabay提供",
+          "description": "1300万以上の高品質な無料画像を検索できます。"
+        }
+      }
+    },
+    "dnd": {
+      "dropHere": "ここにアイテムをドロップ",
+      "dragAndDropToUpload": "ドラッグ＆ドロップまたはクリックしてアップロード",
+      "or": "または",
+      "buttons": {
+        "pasteFromClipboard": "クリップボードから貼り付け"
+      }
+    },
+    "buttons": {
+      "goBack": "戻る",
+      "reportBug": "バグを報告"
+    },
+    "colorPicker": {
+      "title": "色を選択",
+      "modals": {
+        "morandiColorPalette": "モランディカラーパレット",
+        "tailwindCssColorPalette": "Tailwind CSSカラーパレット"
+      },
+      "buttons": {
+        "morandiColorPalette": "モランディカラーパレット",
+        "tailwindCssColorPalette": "Tailwind CSSカラーパレット"
+      }
+    },
+    "empty": {
+      "apiStatus": {
+        "title": "APIに接続できません",
+        "description": "ネットワーク接続を確認してもう一度お試しください。開発者の方は、サーバーが正常に動作しているか確認してください。"
+      }
+    },
+    "iconPicker": {
+      "items": {
+        "icon": "アイコン",
+        "iconSet": "アイコンセット"
+      },
+      "empty": {
+        "icon": {
+          "title": "アイコンがありません",
+          "description": "アイコンが見つかりません。別の検索語をお試しください。"
+        }
+      }
+    },
+    "locationDisabled": {
+      "description": "位置情報入力は現在無効です。この機能を有効にするには、適切に設定されたGoogle Cloud APIキーを追加してください。詳細については以下を参照してください:",
+      "title": "利用不可"
+    },
+    "dates": {
+      "months": {
+        "0": "1月",
+        "1": "2月",
+        "2": "3月",
+        "3": "4月",
+        "4": "5月",
+        "5": "6月",
+        "6": "7月",
+        "7": "8月",
+        "8": "9月",
+        "9": "10月",
+        "10": "11月",
+        "11": "12月"
+      },
+      "days": {
+        "0": "月曜日",
+        "1": "火曜日",
+        "2": "水曜日",
+        "3": "木曜日",
+        "4": "金曜日",
+        "5": "土曜日",
+        "6": "日曜日"
+      }
+    },
+    "fieldRequired": "このフィールドは必須です。",
+    "invalidField": "無効なフィールドです。",
+    "invalidColor": "無効な色です。#RRGGBB形式の有効な16進数値を入力してください。",
+    "invalidIcon": "無効なアイコンです。<icon-set>:<icon-name>形式の有効なIconifyアイコン識別子である必要があります。",
+    "loadingUserData": "ユーザーデータを読み込み中...",
+    "invalidSelection": "無効な選択です。リストから有効なオプションを選択してください。",
+    "fileInputSupportedFormat": "対応形式: {{format}}",
+    "alert": {
+      "note": "注意",
+      "warning": "警告",
+      "caution": "注意喚起",
+      "tip": "ヒント",
+      "important": "重要"
+    }
+  },
+  "sidebar": {
+    "buttons": {
+      "signOut": "サインアウト",
+      "accountSettings": "アカウント設定"
+    },
+    "items": {
+      "module": "モジュール"
+    },
+    "empty": {
+      "modules": {
+        "title": "モジュールが見つかりません",
+        "description": "モジュールの検索条件を調整してみてください。"
+      }
+    }
+  },
+  "fetch": {
+    "error": "サーバーからのデータ取得に失敗しました",
+    "success": "やった！アイテムの{{action}}に成功しました！",
+    "failure": "ああ... アイテムの{{action}}に失敗しました。再試行してください。",
+    "action": {
+      "create": "作成",
+      "update": "更新",
+      "delete": "削除",
+      "rename": "名前変更",
+      "pin": "ピン留め",
+      "unpin": "ピン留め解除",
+      "archive": "アーカイブ",
+      "unarchive": "アーカイブ解除",
+      "remove": "削除",
+      "add": "追加",
+      "save": "保存",
+      "public": "公開",
+      "private": "非公開",
+      "replace": "置換",
+      "clearMedium": "クリア",
+      "thumbnail": "サムネイルを更新",
+      "generate": "生成",
+      "cleanedup": "クリーンアップ",
+      "summarized": "要約",
+      "unlock": "ロック解除",
+      "download": "ダウンロード",
+      "NASFilesReady": " ファイルのダウンロード準備ができました。NASにアクセスしてください。",
+      "addedToFavourites": "お気に入りに追加",
+      "removedFromFavourites": "お気に入りから削除"
+    },
+    "redirected": "リダイレクトされました",
+    "redirecting": "リダイレクト中...",
+    "unlock": "ロック解除"
+  },
+  "auth": {
+    "header": "おかえりなさい",
+    "desc": "サインインして人生の記録を続けましょう。",
+    "welcome": {
+      "header": "ようこそ！",
+      "desc": "アカウントを作成して、より良い人生を築き始めましょう。"
+    },
+    "sideImageDesc": {
+      "part1": "いつかあなたはこの世界を去るでしょう",
+      "part2": "だからこそ、思い出に残る人生を生きてください"
+    },
+    "or": "または",
+    "buttons": {
+      "signIn": "サインイン",
+      "proceed": "進む"
+    },
+    "inputs": {
+      "emailOrUsername": {
+        "label": "メールアドレスまたはユーザー名",
+        "placeholder": "johndoe@gmail.com"
+      },
+      "email": {
+        "label": "メールアドレス",
+        "placeholder": "johndoe@gmail.com"
+      },
+      "username": {
+        "label": "ユーザー名",
+        "placeholder": "johndoe"
+      },
+      "name": {
+        "label": "表示名",
+        "placeholder": "John Doe"
+      },
+      "password": {
+        "label": "パスワード",
+        "placeholder": "パスワードを入力してください"
+      },
+      "confirmPassword": {
+        "label": "パスワードの確認",
+        "placeholder": "パスワードを再入力してください"
+      }
+    },
+    "validation": {
+      "emailRequired": "メールアドレスは必須です",
+      "emailInvalid": "有効なメールアドレスを入力してください",
+      "usernameRequired": "ユーザー名は必須です",
+      "usernameTooShort": "ユーザー名は3文字以上である必要があります",
+      "usernameInvalid": "ユーザー名には英数字とアンダースコアのみ使用できます",
+      "nameRequired": "名前は必須です",
+      "passwordRequired": "パスワードは必須です",
+      "passwordTooShort": "パスワードは8文字以上である必要があります",
+      "passwordMismatch": "パスワードが一致しません"
+    },
+    "modals": {
+      "twoFA": {
+        "title": "二要素認証",
+        "description": "以前登録した認証アプリから提供されたOTPを入力してください。",
+        "buttons": {
+          "useEmailOtp": "メールOTPを使用",
+          "useAuthApp": "認証アプリを使用"
+        },
+        "emailDescription": "アカウントに関連付けられたメールアドレスを入力してください。",
+        "inputs": {
+          "email": "メールアドレス"
+        }
+      }
+    },
+    "orAuthenticateWith": "または次の方法で認証",
+    "messages": {
+      "otpSent": "アカウントに関連付けられている場合、メールアドレスにワンタイムパスワードが送信されました。",
+      "welcomeBack": "おかえりなさい、{{name}}さん！",
+      "userCreated": "アカウントが正常に作成されました！LifeForgeへようこそ。",
+      "invalidCredentials": "メールアドレスまたはパスワードが無効です。再試行してください。",
+      "invalidFields": "無効なフィールドです。有効なメールアドレスとパスワードを入力してください。",
+      "quotaExceeded": "試行回数の上限に達しました。しばらくしてから再試行してください。",
+      "unknownError": "不明なエラーです。しばらくしてから再試行してください。",
+      "invalidLoginAttempt": "無効なログイン試行です。再試行してください。"
+    },
+    "qrLogin": {
+      "title": "スキャンしてログイン",
+      "description": "別のデバイスを使用してアカウントにログインします。",
+      "expired": "QRコードの有効期限が切れました",
+      "clickToRefresh": "クリックして更新",
+      "approved": "ログインが承認されました！リダイレクト中...",
+      "waiting": "承認待ち...",
+      "approvalTitle": "ログインを承認",
+      "approvalDescription": "デバイスがあなたのアカウントへのログインを要求しています",
+      "browserInfo": "デバイス情報",
+      "approve": "ログインを承認",
+      "deny": "拒否",
+      "success": "ログインが正常に承認されました",
+      "scanQRCode": "QRコードをスキャンしてログイン",
+      "invalidQR": "無効なQRコード",
+      "sessionNotFound": "セッションが見つからないか期限切れです",
+      "alreadyApproved": "セッションは既に承認されています"
+    }
+  },
+  "vault": {
+    "vault": {
+      "lockedMessage": "ボルトはロックされています",
+      "passwordRequired": "ボルトを復号するにはマスターパスワードが必要です。",
+      "unlocked": "ボルトのロックが解除されました",
+      "failedToUnlock": "ボルトのロック解除に失敗しました",
+      "buttons": {
+        "unlock": "ロック解除",
+        "recoverAccount": "アカウントを復旧"
+      },
+      "createPassword": {
+        "title": "マスターパスワードを設定",
+        "desc": "ボルトを保護するためにマスターパスワードを設定してください。"
+      },
+      "inputs": {
+        "newPassword": "新しいパスワード",
+        "confirmPassword": "パスワードの確認",
+        "masterPassword": "マスターパスワード"
+      },
+      "confirmSetNewPassword": {
+        "title": "マスターパスワードを忘れないでください！",
+        "desc": "このマスターパスワードは（現時点では）変更できません！パスワードを忘れると、すべてを失います。このパスワードはハッシュ化されてユーザープロファイルに保存され、復号することはできません。ボルトに保存するデータの暗号化と復号に使用されます。"
+      }
+    },
+    "otp": {
+      "buttons": {
+        "request": "OTPをリクエスト",
+        "resend": "OTPを再送信",
+        "verify": "OTPを検証",
+        "authByQR": "QRコードで認証"
+      },
+      "messages": {
+        "success": "OTPが送信されました！メールを確認してください。",
+        "failed": "OTPのリクエストに失敗しました",
+        "invalid": "OTPは6桁の数字である必要があります",
+        "cooldown": "リクエストが頻繁すぎます。しばらくしてから再試行してください",
+        "required": {
+          "title": "ロック解除にはOTPが必要です",
+          "desc": "セキュリティ強化のため、このモジュールのロックを解除するにはOTPが必要です。下のボタンをクリックしてOTPをリクエストしてください。"
+        },
+        "verify": {
+          "success": "OTP検証に成功しました",
+          "failed": "OTP検証に失敗しました"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "title": "パーソナライゼーション",
+  "description": "あなただけのものに！退屈なシステムなんて誰が欲しい？",
+  "themeSelector": {
+    "title": "テーマ",
+    "desc": "あなたのスタイルに合ったテーマを選んでください。",
+    "theme": {
+      "system": "システム",
+      "light": "ライト",
+      "dark": "ダーク"
+    },
+    "customBgColor": "カスタム背景色"
+  },
+  "themeColorSelector": {
+    "title": "テーマカラー",
+    "desc": "インターフェースに最適な色を選んでください。",
+    "colors": {
+      "red": "レッド",
+      "pink": "ピンク",
+      "purple": "パープル",
+      "deepPurple": "ディープパープル",
+      "indigo": "インディゴ",
+      "blue": "ブルー",
+      "lightBlue": "ライトブルー",
+      "cyan": "シアン",
+      "teal": "ティール",
+      "green": "グリーン",
+      "lightGreen": "ライトグリーン",
+      "lime": "ライム",
+      "yellow": "イエロー",
+      "amber": "アンバー",
+      "orange": "オレンジ",
+      "deepOrange": "ディープオレンジ",
+      "brown": "ブラウン",
+      "grey": "グレー",
+      "custom": "カスタムカラー"
+    }
+  },
+  "languageSelector": {
+    "title": "言語",
+    "desc": "希望する言語を選択してください。"
+  },
+  "bgTempSelector": {
+    "title": "背景の色温度",
+    "desc": "気分に合った背景の色温度を選んでください。",
+    "cool": "クール",
+    "warm": "ウォーム",
+    "customBgTemp": "カスタム"
+  },
+  "fontFamily": {
+    "title": "フォントスタイル",
+    "desc": "好みに合ったフォントを選んでください",
+    "tooltip": "すべてのフォントの詳細については、Google Fontsのウェブサイトをご覧ください。",
+    "tooltipTitle": "Powered by Google Fonts",
+    "tabs": {
+      "googleFonts": "Google Fonts",
+      "customFonts": "カスタムフォント"
+    },
+    "empty": {
+      "apiKey": {
+        "title": "Google Cloud APIキーが見つかりません",
+        "description": "この機能を有効にするには、APIボルトにGoogle Cloud APIキーを追加してください。"
+      },
+      "search": {
+        "title": "フォントファミリーが見つかりません",
+        "description": "指定された条件に一致するフォントファミリーが見つかりません。別のキーワードをお試しください。"
+      },
+      "customFont": {
+        "title": "カスタムフォントがありません",
+        "description": "まだカスタムフォントがアップロードされていません。上のボタンをクリックしてアップロードしてください。"
+      }
+    },
+    "inputs": {
+      "displayName": "表示名",
+      "fontFamily": "フォントファミリー",
+      "fontWeight": "フォントウェイト",
+      "fontFile": "フォントファイル"
+    },
+    "modals": {
+      "fontFamilySelector": "フォントファミリーセレクター",
+      "customFonts": {
+        "upload": "カスタムフォントをアップロード",
+        "edit": "カスタムフォントを編集",
+        "delete": {
+          "title": "カスタムフォントを削除",
+          "description": "このカスタムフォントを削除してもよろしいですか？この操作は元に戻せません。"
+        }
+      }
+    },
+    "buttons": {
+      "uploadButton": "カスタムフォントをアップロード"
+    },
+    "items": {
+      "fontFamily": "フォントファミリー"
+    }
+  },
+  "fontScaleSelector": {
+    "title": "フォントスケール",
+    "desc": "選択したフォントファミリーに合ったフォントスケールを選んでください。"
+  },
+  "borderRadiusSelector": {
+    "title": "ボーダー半径",
+    "desc": "インターフェース全体の角の丸みを調整します。",
+    "options": {
+      "none": "なし",
+      "small": "小",
+      "default": "デフォルト",
+      "medium": "中",
+      "large": "大",
+      "full": "最大"
+    }
+  },
+  "borderedSelector": {
+    "title": "ボーダー付きコンポーネント",
+    "desc": "UIコンポーネントに可視ボーダーを表示します。"
+  },
+  "bgImageSelector": {
+    "title": "背景画像",
+    "desc": "背景画像をアップロードまたは検索します",
+    "pixabayDisabled": {
+      "tooltip": "Pixabayから画像を検索するには、APIボルトにPixabay APIキーを追加してください。詳細については以下を参照してください:"
+    },
+    "modals": {
+      "adjustBackground": {
+        "title": "背景画像を調整",
+        "modals": {
+          "adjustBackgroundImage": "背景画像を調整"
+        },
+        "columns": {
+          "blur": {
+            "title": "ぼかし効果",
+            "desc": "背景画像のぼかしレベルを調整します。"
+          },
+          "brightness": {
+            "title": "明るさ",
+            "desc": "背景画像の明るさを調整します。"
+          },
+          "contrast": {
+            "title": "コントラスト",
+            "desc": "背景画像のコントラストを調整します。"
+          },
+          "saturation": {
+            "title": "彩度",
+            "desc": "背景画像の色の強さを調整します。"
+          },
+          "overlayOpacity": {
+            "title": "オーバーレイの不透明度",
+            "desc": "背景オーバーレイの透明度を調整します。"
+          }
+        }
+      }
+    }
+  },
+  "inputs": {
+    "colorHex": "カラーHex"
+  },
+  "notApplicable": "適用不可",
+  "unsupportedModulesWarning": "以下のモジュールは選択された言語をサポートしていません。"
+}

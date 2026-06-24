@@ -1,0 +1,11 @@
+{
+  "name": "@lifeforge/lifeforge--lang-ja",
+  "version": "0.0.1",
+  "description": "Japanese language support for LifeForge.",
+  "author": "melvinchia3636 <melvinchia623600@gmail.com>",
+  "lifeforge": {
+    "code": "ja",
+    "displayName": "日本語",
+    "icon": "circle-flags:jp"
+  }
+}
