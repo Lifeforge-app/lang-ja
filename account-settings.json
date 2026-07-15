@@ -9,7 +9,8 @@
       "email": "メールアドレス",
       "password": "パスワード",
       "dateOfBirth": "生年月日",
-      "twoFA": "二要素認証"
+      "twoFA": "二要素認証",
+      "oauth": "OAuthプロバイダー"
     },
     "desc": {
       "profilePicture": "プロフィール画像をアップロードしてアカウントをカスタマイズします。",
@@ -18,11 +19,13 @@
       "email": "アカウントにログインするために使用するメールアドレスです。",
       "password": "アカウントを保護するために強力なパスワードを設定してください。",
       "dateOfBirth": "生年月日を設定すると、サプライズがあります！",
-      "twoFA": "システムへのログイン時に二要素認証を有効にします。"
+      "twoFA": "システムへのログイン時に二要素認証を有効にします。",
+      "oauth": "OAuthプロバイダーを設定して、サードパーティーログインを有効にします。"
     },
     "empty": "未設定"
   },
   "modals": {
+    "oauthConfig": "OAuthプロバイダー設定",
     "username": {
       "update": "ユーザー名を更新"
     },
@@ -46,10 +49,15 @@
     },
     "changePassword": {
       "title": "パスワードを変更"
+    },
+    "oauthProvider": {
+      "create": "OAuthプロバイダーを追加",
+      "update": "OAuthプロバイダーを更新"
     }
   },
   "buttons": {
-    "changePassword": "パスワードを変更"
+    "changePassword": "パスワードを変更",
+    "configure": "設定"
   },
   "inputs": {
     "dateOfBirth": "生年月日",
@@ -67,16 +75,31 @@
     "confirmPassword": {
       "label": "新しいパスワードの確認",
       "placeholder": "新しいパスワードを再入力してください"
+    },
+    "oauthProvider": {
+      "provider": "プロバイダー",
+      "clientId": "クライアントID",
+      "clientSecret": "クライアントシークレット"
     }
   },
   "messages": {
     "twoFA": {
       "enableSuccess": "二要素認証が正常に有効化されました。",
       "disableSuccess": "二要素認証が正常に無効化されました。"
+    },
+    "oauth": {
+      "changeConfirm": "OAuth認証情報を変更してもよろしいですか？",
+      "changeAlert": "クライアントIDとシークレットを更新すると、既存のものと置き換わります。この操作は元に戻せません。"
     }
   },
   "misc": {
     "enabled": "有効",
-    "disabled": "無効"
+    "disabled": "無効",
+    "oauthStatus": "{{confCount}}設定済み、{{enabledCount}}有効",
+    "lastUpdated": "最終更新："
+  },
+  "tabs": {
+    "personalInformation": "個人情報",
+    "accountAndSecurity": "アカウントとセキュリティ"
   }
 }
