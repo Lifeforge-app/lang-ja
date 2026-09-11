@@ -53,6 +53,11 @@
       "error": "アイテムの削除中にエラーが発生しました。再試行してください。"
     },
     "searchFilters": "検索フィルター",
+    "datePicker": {
+      "title": "日付を選択",
+      "titleWithTime": "日時を選択",
+      "yearMonth": "年月を選択"
+    },
     "iconPicker": {
       "title": "アイコンを選択",
       "items": {
