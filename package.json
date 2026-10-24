@@ -7,5 +7,9 @@
     "code": "ja",
     "displayName": "日本語",
     "icon": "circle-flags:jp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lifeforge-app/lang-ja.git"
   }
 }
